@@ -1,7 +1,7 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
       """
-      using two pointer approach
+      using two pointer approach o(n) time complexity
       """
         # left = 0 
         # right = len(nums)-1
@@ -14,7 +14,7 @@ class Solution:
         #     right-=1
         # return -1
       """
-      using modified binary search approach
+      using modified binary search approach o(log n) time complexity
       """
         left = 0
         right = len(nums)-1
